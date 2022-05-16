@@ -1,0 +1,27 @@
+명령어
+ - assignment statement
+ - 반복문 (for, while, do-while)
+ - 비교문 (if, if-else)
+ - 호출문
+
+데이터
+ * type
+   - 기본형 : 문자형 정수형 실수형 레퍼런스
+   - 객체형 (구조체)
+ * memory allocation scheme
+   - static, automatic, dynamic
+ * scope
+   - local, global
+
+프로그램 구조
+ - 클래스 : data member, member function
+ 
+ VM : Virtual Machine
+ 
+ H/W - Firmware - OS - VM - Library - AP - 사용자
+ 
+ https://www.oracle.com/java/technologies/
+
+설치 확인 (PATH 설정 주의)
+
+Edit Plus 혹은 Eclipse를 IDE로
