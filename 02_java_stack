@@ -1,0 +1,45 @@
+Java에서의 배열 선언 방법
+ - 가능 : int []y 와 int[] z 같은 방법으로 선언할 수 있다
+ - 불가능 : int x[] 의 방법은 c와 c#에서는 사용이 가능하나 java는 불가능하다
+
+Java의 배열
+ - stack 영역에서 pointer를 만들고 heap 영역에 data를 만든다
+ - 만들어진 배열의 첫 번째 필드에는 length가 자동적으로 만들어진다 (read only)
+ - 만들어진 배열은 쓰레기값이 아닌 0으로 초기화 되어있다
+
+Stack : LIFO(Last In First Out) 방식으로 운영되는 Collection 객체
+ - 목적 : 과거 기록
+ - 서비스 : push, pop
+ - 자료구조 : 배열, growable array, linked list
+ - Library : generic class 형태로 제공
+
+Visibility (가시성)
+ - public
+ - private
+ - protected
+
+Java I/O
+ - Byte 단위 : XXXInputStream XXXOutputStream
+ - Char 단위 : XXXReader XXXWriter
+
+scanf("%d", &x) 함수의 죽음 -> call by reference 사라짐
+1) 한 문자 읽기
+2) 한 줄 읽기
+3) scanf처럼 type 별로 읽기
+
+C 스타일의 IO 중요성 감소
+
+PostFix Expression Evaluator
+
+Expression(산술식) : operand와 operator의 조합
+34 * X - 98 + ABC
+
+infix notation : 34 + 25
+prefix notation : + 34 25
+postfix notation : 34 25 +
+	ex) 24 6 12 + -20 + -
+	(24 ((6 12 +) -20 +) -)
+
+Evaluation Rule:
+1. Operand는 무조건 스택에 push
+2. Operator 경우 2개 Pop한 후에 결과값을 Push
