@@ -43,3 +43,6 @@ postfix notation : 34 25 +
 Evaluation Rule:
 1. Operand는 무조건 스택에 push
 2. Operator 경우 2개 Pop한 후에 결과값을 Push
+
+token : 기본 단위
+Lexical Analysis(Tokenizer)
